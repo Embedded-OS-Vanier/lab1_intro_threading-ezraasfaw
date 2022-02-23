@@ -13,7 +13,7 @@
 #define HAVE_STRUCT_TIMESPEC  // for win32 only. Because TIMESPEC is re-defined inside pthread.h
 #include <pthread.h>
 
-
+ADD A PROLOG TO EXPLAIN THE PURPOSE OF THIS THREAD
 void* thread1(void* threadid) {
     //while(1){
     for (int i = 0; i < 10; i++) {
